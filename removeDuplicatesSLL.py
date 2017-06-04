@@ -64,8 +64,6 @@ def removeDuplicates(head):
             # temp_list[head.data] = 1
             hash_map[head.data] = 1
             head = head.next
-    print("printing hash")
-    print(hash_map)
     return main_head
 
 # Driver program
